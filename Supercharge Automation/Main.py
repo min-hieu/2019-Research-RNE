@@ -157,7 +157,7 @@ def supercharge_arbitrary(seq, threshold, charge, binding_site):
     ok2 = len(sequence)
 
     for i in range(len(ch)):
-        if ch[i]*charge > threshold: #if negatively charge the sequence, charge < 0
+        if ch[i]*charge > threshold: 
             for j in range(20):
                 if sequence[i+j] in ["R", "K"] and i+j not in binding_site:
                     sequence[i+j] = random.choice(["D", "E"])
