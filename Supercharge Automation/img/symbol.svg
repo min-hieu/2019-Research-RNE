@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E6E6E6;}
+	.st1{fill:none;}
+	.st2{fill:#4D4D4D;stroke:#CCCCCC;stroke-miterlimit:10;}
+	.st3{font-family:'PalatinoLinotype-Bold';}
+	.st4{font-size:71px;}
+	.st5{fill:none;stroke:#CCCCCC;stroke-width:8.5;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#CCCCCC;stroke-width:15;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;stroke:#CCCCCC;stroke-width:11;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#CCCCCC;stroke-width:27;stroke-miterlimit:10;}
+	.st9{fill:#4D4D4D;}
+	.st10{font-size:74px;}
+	.st11{fill:#CCCCCC;}
+</style>
+<g id="Layer_1">
+</g>
+<g id="SuperCharge">
+	<g id="Layer_2">
+		<polygon class="st0" points="378.65,602.58 387.27,668.35 343.41,626.25 314.22,754.19 290.69,613.45 168.29,668.57 
+			258.98,561.55 195.03,516.28 257.07,514.53 160.02,378.34 300,484.51 300.95,356.97 355.18,480.75 380,446 352,415 377,339 
+			456,339 427,416 446,446 395.4,498.58 496.07,464.41 386.07,541.01 500.22,612.13 		"/>
+	</g>
+	<rect x="206.5" y="523.09" class="st1" width="439" height="73.41"/>
+	<text transform="matrix(1 0 0 1 206.498 574.7441)" class="st2 st3 st4">SuperCharge</text>
+</g>
+<g id="LCD_x5F_Viewer">
+	<line class="st5" x1="804.7" y1="402.87" x2="1074.1" y2="402.87"/>
+	<line class="st5" x1="1074.1" y1="590.5" x2="1074.1" y2="402.87"/>
+	<line class="st5" x1="804.7" y1="590.5" x2="1074.1" y2="590.5"/>
+	<line class="st5" x1="804.7" y1="402.87" x2="804.7" y2="590.5"/>
+	<line class="st5" x1="1009.85" y1="402.87" x2="1009.85" y2="590.5"/>
+	<line class="st5" x1="941.23" y1="402.87" x2="941.23" y2="590.5"/>
+	<line class="st5" x1="872.6" y1="401.78" x2="872.6" y2="589.4"/>
+	<line class="st5" x1="803.97" y1="464.2" x2="1073.37" y2="464.2"/>
+	<line class="st5" x1="804.7" y1="526.25" x2="1074.1" y2="526.25"/>
+	<polyline class="st6" points="775.5,569.33 855.08,488.29 904.72,562.76 955.83,438.65 985.76,497.05 1096,427.69 	"/>
+	<circle class="st7" cx="869.75" cy="515.75" r="77.75"/>
+	<line class="st8" x1="918.5" y1="575.5" x2="981.5" y2="651.5"/>
+	<line class="st8" x1="810.5" y1="565.5" x2="859.5" y2="522.5"/>
+	<line class="st8" x1="892.5" y1="558.5" x2="854.5" y2="515.5"/>
+	<line class="st8" x1="939.5" y1="481.5" x2="892.5" y2="558.5"/>
+	<rect x="843.32" y="472.02" class="st1" width="358.47" height="222.13"/>
+	<text transform="matrix(1 0 0 1 843.3193 525.8594)"><tspan x="0" y="0" class="st9 st3 st10">LCD</tspan><tspan x="0" y="88.8" class="st9 st3 st10">VIEWER</tspan></text>
+</g>
+<g id="Biological_activity">
+	<circle class="st11" cx="1374.5" cy="459.5" r="106.5"/>
+	<path class="st11" d="M1527,630c0,25.78-18.38,46.97-38.42,54.61c-9.63,3.67-17.63,3.47-19.58,3.39c-24.3-1-58-21.91-58-58
+		c0-32.03,25.97-58,58-58S1527,597.97,1527,630z"/>
+	<circle class="st11" cx="1616" cy="540" r="89"/>
+	<path class="st11" d="M1522,652c0,0,9-38,81-24l-76-83c0,0,8.89,39.8-37.06,30.9C1444,567,1457,536,1473,500l-104,66
+		c0,0,54-4,46,43L1522,652z"/>
+	<rect x="1311.09" y="447.77" class="st1" width="505.91" height="197.62"/>
+	<text id="Biological_Activity__x5B_beta_x5D_" transform="matrix(1 0 0 1 1311.085 501.604)"><tspan x="0" y="0" class="st9 st3 st10">Biological</tspan><tspan x="0" y="88.8" class="st9 st3 st10">Activity [beta]</tspan></text>
+	<circle class="st11" cx="1578" cy="400" r="25"/>
+</g>
+</svg>

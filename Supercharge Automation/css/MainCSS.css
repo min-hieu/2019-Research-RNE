@@ -1,0 +1,1130 @@
+:root {
+	--web-view-ids: LCD_viewer___1,Help,LCD_viewer,Supercharge,Main;
+	--web-view-name: LCD_viewer – 1;
+	--web-view-id: LCD_viewer___1;
+	--web-scale-to-fit: false;
+	--web-scale-to-fit-type: default;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: false;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: false;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: false;
+	--web-application: true;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#LCD_viewer___1,
+#Help,
+#LCD_viewer,
+#Supercharge,
+#Main {
+	display: none;
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: LCD_viewer – 1;
+		--web-view-id: LCD_viewer___1;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#LCD_viewer___1 {
+		position: absolute;
+		display: block;
+		width: 900px;
+		height: 600px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: LCD_viewer – 1;
+		--web-view-id: LCD_viewer___1;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#version_0_0_0a {
+		position: absolute;
+		left: 790px;
+		top: 579px;
+		overflow: visible;
+		width: 123px;
+		height: 21px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,0,0,1);
+	}
+	.Rectangle_1 {
+		filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		height: 91px;
+		left: 59px;
+		top: 17px;
+	}
+	.Union_1_n {
+		overflow: visible;
+		position: absolute;
+		width: 53px;
+		height: 53px;
+		left: 205px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#supcharge {
+		position: absolute;
+		width: 59px;
+		height: 57px;
+		left: 70px;
+		top: 24px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Supercharge;
+		cursor: pointer;
+	}
+	#work_in_progress {
+		position: absolute;
+		left: 211px;
+		top: 300px;
+		overflow: visible;
+		width: 479px;
+		height: 28px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Help_Button {
+		position: absolute;
+		width: 86px;
+		height: 21px;
+		left: 767px;
+		top: 575px;
+		overflow: visible;
+	}
+	.Rectangle_121 {
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Help;
+		cursor: pointer;
+	}
+	#help {
+		opacity: 0.89;
+		position: absolute;
+		left: 5px;
+		top: 4px;
+		overflow: visible;
+		width: 82px;
+		height: 17px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+	#thing {
+		position: absolute;
+		width: 63px;
+		height: 60px;
+		left: 131px;
+		top: 23px;
+		overflow: visible;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: LCD_viewer;
+		cursor: pointer;
+	}
+	#biolo3 {
+		position: absolute;
+		width: 57px;
+		height: 50px;
+		left: 205px;
+		top: 26px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Help;
+		--web-view-id: Help;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Help {
+		position: absolute;
+		display: block;
+		width: 900px;
+		height: 600px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Help;
+		--web-view-id: Help;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	#version_0_0_0a_x {
+		position: absolute;
+		left: 790px;
+		top: 579px;
+		overflow: visible;
+		width: 123px;
+		height: 21px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,0,0,1);
+	}
+	.Rectangle_1_y {
+		filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		height: 91px;
+		left: 59px;
+		top: 17px;
+	}
+	#charge3 {
+		position: absolute;
+		width: 54px;
+		height: 51px;
+		left: 70px;
+		top: 25px;
+		overflow: visible;
+	}
+	#charge3_ {
+		position: absolute;
+		width: 54px;
+		height: 51px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#lcd3 {
+		position: absolute;
+		width: 55px;
+		height: 53px;
+		left: 142px;
+		top: 26px;
+		overflow: visible;
+	}
+	#lcd3_ {
+		position: absolute;
+		width: 55px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#thing_ {
+		position: absolute;
+		width: 63px;
+		height: 60px;
+		left: 131px;
+		top: 23px;
+		overflow: visible;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: LCD_viewer;
+		cursor: pointer;
+	}
+	#supcharge_ {
+		position: absolute;
+		width: 59px;
+		height: 57px;
+		left: 70px;
+		top: 24px;
+		overflow: visible;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: Supercharge;
+		cursor: pointer;
+	}
+	#Help_Menu {
+		position: absolute;
+		left: 211px;
+		top: 39px;
+		overflow: hidden;
+		width: 479px;
+		height: 28px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+	}
+	#biological_activity {
+		position: absolute;
+		width: 68px;
+		height: 60px;
+		left: 196px;
+		top: 21px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: LCD_viewer;
+		--web-view-id: LCD_viewer;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#LCD_viewer {
+		position: absolute;
+		display: block;
+		width: 900px;
+		height: 600px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: LCD_viewer;
+		--web-view-id: LCD_viewer;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#version_0_0_0a_ {
+		position: absolute;
+		left: 790px;
+		top: 579px;
+		overflow: visible;
+		width: 123px;
+		height: 21px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,0,0,1);
+	}
+	.Rectangle_1_ba {
+		filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		height: 91px;
+		left: 59px;
+		top: 17px;
+	}
+	.Union_1_bc {
+		overflow: visible;
+		position: absolute;
+		width: 53px;
+		height: 53px;
+		left: 142px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#lcd3_bd {
+		position: absolute;
+		width: 55px;
+		height: 53px;
+		left: 142px;
+		top: 26px;
+		overflow: visible;
+	}
+	#lcd3_be {
+		position: absolute;
+		width: 55px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#supcharge_bf {
+		position: absolute;
+		width: 59px;
+		height: 57px;
+		left: 70px;
+		top: 24px;
+		overflow: visible;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: Supercharge;
+		cursor: pointer;
+	}
+	#biological_activity_bg {
+		position: absolute;
+		width: 68px;
+		height: 60px;
+		left: 196px;
+		top: 21px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: LCD_viewer___1;
+		cursor: pointer;
+	}
+	#work_in_progress_bh {
+		position: absolute;
+		left: 211px;
+		top: 300px;
+		overflow: visible;
+		width: 479px;
+		height: 28px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+	}
+	#Help_Button_bi {
+		position: absolute;
+		width: 86px;
+		height: 21px;
+		left: 767px;
+		top: 575px;
+		overflow: visible;
+	}
+	.Rectangle_121_bj {
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Help;
+		cursor: pointer;
+	}
+	#help_bk {
+		opacity: 0.89;
+		position: absolute;
+		left: 5px;
+		top: 4px;
+		overflow: visible;
+		width: 82px;
+		height: 17px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Supercharge;
+		--web-view-id: Supercharge;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Supercharge {
+		position: absolute;
+		display: block;
+		width: 900px;
+		height: 600px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Supercharge;
+		--web-view-id: Supercharge;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes  {
+	
+	
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#version_0_0_0a_bn {
+		position: absolute;
+		left: 790px;
+		top: 579px;
+		overflow: visible;
+		width: 123px;
+		height: 21px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,0,0,1);
+	}
+	.Rectangle_1_bo {
+		filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		height: 91px;
+		left: 59px;
+		top: 17px;
+	}
+	#Result {
+		position: absolute;
+		left: 43px;
+		top: 96px;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 293px;
+		height: 455px;
+		left: 20px;
+		top: 124px;
+	}
+	#Sequence {
+		position: absolute;
+		left: 346px;
+		top: 16px;
+		overflow: visible;
+		width: 97px;
+		height: 23px;
+		text-align: center;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 524px;
+		height: 112px;
+		left: 327px;
+		top: 44px;
+	}
+	.Union_1_bu {
+		overflow: visible;
+		position: absolute;
+		width: 53px;
+		height: 53px;
+		left: 73px;
+		top: 23px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#charge3_bv {
+		position: absolute;
+		width: 54px;
+		height: 51px;
+		left: 70px;
+		top: 25px;
+		overflow: visible;
+	}
+	#charge3_bw {
+		position: absolute;
+		width: 54px;
+		height: 51px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#thing_bx {
+		position: absolute;
+		width: 63px;
+		height: 60px;
+		left: 131px;
+		top: 23px;
+		overflow: visible;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: LCD_viewer;
+		cursor: pointer;
+	}
+	#biological_activity_by {
+		position: absolute;
+		width: 68px;
+		height: 60px;
+		left: 196px;
+		top: 21px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: LCD_viewer___1;
+		cursor: pointer;
+	}
+	#Number_of_mutation {
+		position: absolute;
+		left: 336px;
+		top: 179px;
+		overflow: visible;
+		width: 192px;
+		height: 30px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 30px;
+		left: 550px;
+		top: 175px;
+	}
+	#Binding_site {
+		position: absolute;
+		left: 336px;
+		top: 224px;
+		overflow: visible;
+		width: 199px;
+		height: 28px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 235px;
+		height: 30px;
+		left: 467px;
+		top: 219px;
+	}
+	#List_TwoLine___Type_4 {
+		position: absolute;
+		width: 219px;
+		height: 61px;
+		left: 358px;
+		top: 285px;
+		overflow: visible;
+	}
+	.Rectangle_114 {
+		position: absolute;
+		overflow: visible;
+		width: 219px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#Linear_Charge_Density {
+		position: absolute;
+		left: 14px;
+		top: 23px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_115 {
+		opacity: 0.3;
+	}
+	.Rectangle_115 {
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		height: 24px;
+		left: 179px;
+		top: 18px;
+	}
+	#List_TwoLine___Type_4_b {
+		position: absolute;
+		width: 219px;
+		height: 61px;
+		left: 602px;
+		top: 285px;
+		overflow: visible;
+	}
+	.Rectangle_114_b {
+		position: absolute;
+		overflow: visible;
+		width: 219px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#Linear_Charge_Density_b {
+		position: absolute;
+		left: 14px;
+		top: 23px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_115_ca {
+		opacity: 0.3;
+	}
+	.Rectangle_115_ca {
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		height: 24px;
+		left: 179px;
+		top: 18px;
+	}
+	#Supercharging_method {
+		position: absolute;
+		left: 490px;
+		top: 268px;
+		overflow: visible;
+		width: 199px;
+		height: 28px;
+		text-align: center;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Threshold {
+		position: absolute;
+		left: 336px;
+		top: 366px;
+		overflow: visible;
+		width: 192px;
+		height: 30px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.Rectangle_119 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 30px;
+		left: 440px;
+		top: 362px;
+	}
+	#List_TwoLine___Type_4_ce {
+		position: absolute;
+		width: 219px;
+		height: 61px;
+		left: 363px;
+		top: 436px;
+		overflow: visible;
+	}
+	.Rectangle_114_cf {
+		position: absolute;
+		overflow: visible;
+		width: 219px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#Positively_charge {
+		position: absolute;
+		left: 13px;
+		top: 20px;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_115_ch {
+		opacity: 0.3;
+	}
+	.Rectangle_115_ch {
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		height: 24px;
+		left: 178px;
+		top: 18px;
+	}
+	#Supercharging_type {
+		position: absolute;
+		left: 490px;
+		top: 415px;
+		overflow: visible;
+		width: 199px;
+		height: 28px;
+		text-align: center;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#List_TwoLine___Type_4_cj {
+		position: absolute;
+		width: 219px;
+		height: 61px;
+		left: 602px;
+		top: 437px;
+		overflow: visible;
+	}
+	.Rectangle_114_ck {
+		position: absolute;
+		overflow: visible;
+		width: 219px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+	}
+	#Negatively_charge {
+		position: absolute;
+		left: 14px;
+		top: 20px;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_115_cm {
+		opacity: 0.3;
+	}
+	.Rectangle_115_cm {
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		height: 24px;
+		left: 179px;
+		top: 18px;
+	}
+	#Component_8___1 {
+		position: absolute;
+		width: 185px;
+		height: 24px;
+		left: 526px;
+		top: 525px;
+		overflow: visible;
+	}
+	.Rectangle_120 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 16px;
+		left: 85px;
+		top: 7px;
+	}
+	#Supercharge_cp {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 186px;
+		height: 24px;
+		text-align: center;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		color: rgba(87,87,87,1);
+	}
+	#Help_Button_cq {
+		position: absolute;
+		width: 86px;
+		height: 21px;
+		left: 767px;
+		top: 575px;
+		overflow: visible;
+	}
+	.Rectangle_121_cr {
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Help;
+		cursor: pointer;
+	}
+	#help_cs {
+		opacity: 0.89;
+		position: absolute;
+		left: 5px;
+		top: 4px;
+		overflow: visible;
+		width: 82px;
+		height: 17px;
+		text-align: left;
+		font-family: Cambria Math;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+	#_input_sequence_here {
+		position: absolute;
+		left: 336px;
+		top: 53px;
+		overflow: visible;
+		width: 501px;
+		height: 93px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(174,174,174,1);
+	}
+	#result_pleaceholder {
+		position: absolute;
+		left: 27px;
+		top: 131px;
+		overflow: visible;
+		width: 278px;
+		height: 439px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(174,174,174,1);
+	}
+	#ID555 {
+		position: absolute;
+		left: 559px;
+		top: 178px;
+		overflow: visible;
+		width: 28px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(174,174,174,1);
+	}
+	#________ {
+		position: absolute;
+		left: 473px;
+		top: 224px;
+		overflow: hidden;
+		width: 222px;
+		height: 19px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(174,174,174,1);
+	}
+	#ID5______ {
+		position: absolute;
+		left: 446px;
+		top: 366px;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(174,174,174,1);
+	}
+	#Component_12___1 {
+		position: absolute;
+		width: 35px;
+		height: 21px;
+		left: 858px;
+		top: 90px;
+		overflow: visible;
+	}
+	#folder2 {
+		position: absolute;
+		width: 35px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#folder2_2 {
+		opacity: 0;
+		position: absolute;
+		width: 35px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Main;
+		--web-view-id: Main;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Main {
+		position: absolute;
+		display: block;
+		width: 900px;
+		height: 600px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Main;
+		--web-view-id: Main;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	#SuperCharging_Automation {
+		position: absolute;
+		left: 256px;
+		top: 115px;
+		overflow: visible;
+		width: 389px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Bahnschrift;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(255,0,0,1);
+	}
+	#logo {
+		position: absolute;
+		width: 491px;
+		height: 491px;
+		left: 205px;
+		top: 80px;
+		overflow: visible;
+	}
+	#version_0_0_0a_c {
+		position: absolute;
+		left: 770px;
+		top: 12px;
+		overflow: hidden;
+		width: 123px;
+		height: 21px;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,0,0,1);
+	}
+	#by_Hieu {
+		position: absolute;
+		left: 521px;
+		top: 147px;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,0,0,1);
+	}
+}

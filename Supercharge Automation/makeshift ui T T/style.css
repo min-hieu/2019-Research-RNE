@@ -1,0 +1,32 @@
+
+body {
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#result {
+    float: left;
+}
+
+#result_text
+{
+    height:200px;
+    font-size:14pt;
+}
+
+#input_form {
+    margin-left: auto;
+    display: inline;
+}
+
+#input_form form {
+    padding: 0;
+
+}
+
+#footer {
+    clear: both;
+}
+
+
+
