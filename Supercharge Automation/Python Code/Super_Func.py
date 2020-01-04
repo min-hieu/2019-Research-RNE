@@ -45,12 +45,18 @@ def supercharge_arbitrary(seq, threshold, charge, binding_site):
 
     for i in range(len(ch)):
         if ch[i]*charge > threshold: #if negatively charge the sequence, charge < 0
-            for j in range(20):
-                if sequence[i+j] in ["R", "K"] and i+j not in binding_site:
-                    sequence[i+j] = random.choice(["D", "E"])
-                    curr_charge = get_curr_charge(i, sequence)
-                    if curr_charge <= threshold:
-                        break
+            if i == 0:
+                for j in range(20):
+                    if sequence[j] in ["R", "K"] and j not in binding_site:
+                        sequence[j] = random.choice(["D", "E"])
+                        curr_charge = get_curr_charge(0, sequence)
+                        if curr_charge <= threshold:
+                            ch = Super_Seq.seq_charge("".join(sequence))
+                            break
+            else:
+                if sequence[i+20] in ["R", "K"] and i+20 not in binding_site:
+                    sequence[i+20] = random.choice(["D", "E"])
+                    ch = Super_Seq.seq_charge(sequence)
 
     sequence = ''.join(sequence)
                     
