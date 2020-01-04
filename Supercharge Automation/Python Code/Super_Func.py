@@ -38,19 +38,6 @@ def binding_site_converter(site):
     return tuple(siteList)
 
 
-def superchargeMethod(seq, method_tuple,threshold, charge):
-    #output a tuple of indexes based on the given method
-    assert type(seq) == Super_Seq
-    assert sum(method_tuple) > 0
-
-    LCD, consf = method_tuple
-    # if LCD and consf:
-    #
-    # elif LCD:
-    # elif consf:
-    # else:
-
-
 def supercharge_arbitrary(seq, threshold, charge, binding_site):
     assert type(seq) == Super_Seq
     sequence = list(seq.seq)
@@ -78,11 +65,3 @@ def supercharge(protein, binding_site, method, threshold, charge):
     charged_protein = supercharge_arbitrary(protein, threshold, charge, binding_site)
     protein.compare_lcd(charged_protein)
 
-
-# seq_test = """MLPGVGLTPS AAQTARQHPK MHLAHSTLKP AAHLIGDPSK QNSLLWRANT
-# DRAFLQDGFS LSNNSLLVPT SGIYFVYSQV VFSGKAYSPK ATSSPLYLAH
-# EVQLFSSQYP FHVPLLSSQK MVYPGLQEPW LHSMYHGAAF QLTQGDQLST
-# HTDGIPHLVL SPSTVFFGAF AL"""
-#
-# TNFB = Super_Seq(seq_test, "", "TNFB")
-# TNFB.display_lcd()
