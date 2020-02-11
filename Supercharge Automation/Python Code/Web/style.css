@@ -1,0 +1,37 @@
+body {
+    background-color: #F1C40F;
+    text-align: center;
+  }
+  
+  form {
+    border: 2px solid white;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #2274A5;
+  }
+  
+  input[type="submit"] {
+    border: 2px solid white;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #cb1b59;
+  }
+  
+  input[type="text"] {
+    border: 2px solid white;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+    font-size: 1.25rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #cb1b59;
+  }
