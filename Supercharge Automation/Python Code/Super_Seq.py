@@ -97,7 +97,7 @@ class Super_Seq:
             square += (self.chargeDict[self.seq[i]] - self.chargeDict[seq2.seq[i]])**2
 
         return math.sqrt(sum / n)
-
+        
     # def min_lcd(self, threshold = 4):
     #     seq = self.seq
     #     charge = self.charge
