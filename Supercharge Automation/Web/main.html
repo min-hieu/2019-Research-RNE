@@ -2,10 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>
-            Eel testing
-        </title>
-
+        <title>Eel Testing</title>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script>
+            eel.expose(my_js_function);
+            function my_javascript(a,b) {
+                console.log(a + b)
+            }
+        </script>
     </head>
+    <body>
+        <p>Testing</p>
+    </body>
 
 </html>
