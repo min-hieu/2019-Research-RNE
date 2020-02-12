@@ -56,7 +56,7 @@ def supercharge_arbitrary(seq, threshold, charge, binding_site):
             else:
                 if sequence[i+20] in ["R", "K"] and i+20 not in binding_site:
                     sequence[i+20] = random.choice(["D", "E"])
-                    ch = Super_Seq.seq_charge(sequence)
+
 
     sequence = ''.join(sequence)
                     
