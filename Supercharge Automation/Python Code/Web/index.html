@@ -14,27 +14,38 @@
 </head>
 
 <body>
-    <section class="wellcome_area clearfix" id="home">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md">
-                    <div class="wellcome-heading">
-                        <h2>Code Generator</h2>
-                        <h3>QR</h3>
-                        <p>Turn any piece of text into a QR code.</p>
-                    </div>
-                    <div class="get-start-area">
-                        <form class="form-inline">
-                            <input type="text" id="data" class="form-control email" placeholder="Enter text">
-                            <input type="button" class="submit" value="Get QR Code" onclick="generateQRCode()">
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <h1>Supercharge Generator</h1>
+    <div class="input-form">
+      <form method="post" action="form-handler.php">
+        <div>
+          <label for="sequence">Sequence: <span class="required"></span> </label> <br />
+          <textarea id="sequence-field" name="message" placeholder="your sequence here." required></textarea>
         </div>
-        <div class="welcome-thumb">
-            <img id="qr" src="" width="60%">
+  
+        <div>
+          <label for="binding-site">Binding-site: <span class="required"></span> </label> <br />
+          <textarea id="sequence-field" name="message" placeholder="your binding-site here." required></textarea>
         </div>
-    </section>
+  
+        <div>
+          <label for="password">Number of mutations: <span class="required"></span> </label>
+          <input type="number" id="num-mu" name="password" value="" placeholder="" required="required" />
+        </div>
+        <div>
+          <p>Supercharging method</p>
+          <label for="method-random">random</label>
+          <input type="radio" name="method-random" id="method-random" tabindex="2" value="random" checked="checked">
+        </div>
+        <div>
+          <input type="button" class="submit" value="Supercharge" id="submit" />
+        </div>
+      </form>
+  
+    </div>
+    <div class="result-form">
+      <label for="result">Result: </label> <br />
+      <textarea id="result-field" name="result" placeholder="result will appear here." required></textarea>
+    </div>
 </body>
+
 </html>
