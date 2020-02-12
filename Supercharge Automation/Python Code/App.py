@@ -1,6 +1,3 @@
-import io
-import pyqrcode
-from base64 import b64encode
 import eel
 
 eel.init('web')
@@ -22,4 +19,4 @@ def generate_qr(data):
     return "data:image/png;base64, " + encoded
 
 
-eel.start('index.html', size=(1000, 600))
+eel.start('index.html', size=(600, 600))
