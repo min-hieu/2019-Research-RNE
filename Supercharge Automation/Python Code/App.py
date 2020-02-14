@@ -26,6 +26,6 @@ def testing(seq,site,thres):
     return charged_protein.seq
     
 
-eel.start('index.html', size=(600, 600))
+eel.start('index.html', size=(550, 650))
 while True:
     eel.sleep(10)
