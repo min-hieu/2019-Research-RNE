@@ -4,11 +4,11 @@ from Super_Seq import *
 
 eel.init('web')
 
-
 @eel.expose
 def testing(seq,site,thres):
 
     thres = int(thres)
+
     #20-23+27
 
     # MLPGVGLTPS AAQTARQHPK MHLAHSTLKP AAHLIGDPSK QNSLLWRANT
@@ -26,6 +26,13 @@ def testing(seq,site,thres):
     return charged_protein.seq
     
 
-eel.start('index.html', size=(550, 650))
+my_options = {
+    'mode': "edge", #or "chrome-app",
+    'size': (550, 650),
+    'port': 8080,
+    'chromeFlags': ["--start-fullscreen", "--browser-startup-dialog"]
+}
+
+eel.start('index.html', size=(550, 650), port=8080)
 while True:
     eel.sleep(10)

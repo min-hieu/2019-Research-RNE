@@ -1,6 +1,10 @@
 
+# encoding: UTF-8
+# Author: Nguyen Minh Hieu
+
 import math
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 class Super_Seq:
@@ -89,12 +93,20 @@ class Super_Seq:
 
         plt.show()
 
-    def comp_sequence(self, seq2):
+    def compare_seq(self, protein):
+        
+        diff_arr = []
+
+        for i, aa in enumerate(protein.seq):
+            pass
+
+
+    def rms_sequence(self, protein):
         square = 0
         n = len(self.seq)
 
         for i in range(n):
-            square += (self.chargeDict[self.seq[i]] - self.chargeDict[seq2.seq[i]])**2
+            square += (self.chargeDict[self.seq[i]] - self.chargeDict[protein.seq[i]])**2
 
         return math.sqrt(sum / n)
         

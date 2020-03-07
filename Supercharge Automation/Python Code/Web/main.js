@@ -11,3 +11,9 @@ function Supercharge() {
 function Set_result(result) {
 	document.getElementById("result-field").value = result;
 }
+
+var size = [window.width,window.height];
+
+$(window).resize(function(){
+    window.resizeTo(size[0],size[1]);
+});

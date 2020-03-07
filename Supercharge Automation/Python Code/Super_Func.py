@@ -43,6 +43,8 @@ def supercharge_arbitrary(seq, threshold, charge, binding_site):
     sequence = list(seq.seq)
     ch = seq.charge
 
+
+
     for i in range(len(ch)):
         if ch[i]*charge > threshold: #if negatively charge the sequence, charge < 0
             if i == 0:
