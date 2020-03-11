@@ -2,7 +2,7 @@ import eel
 from Super_Func import *
 from Super_Seq import *
 
-eel.init('web')
+eel.init('html')
 
 @eel.expose
 def testing(seq,site,thres):
@@ -26,13 +26,6 @@ def testing(seq,site,thres):
     return charged_protein.seq
     
 
-my_options = {
-    'mode': "edge", #or "chrome-app",
-    'size': (550, 650),
-    'port': 8080,
-    'chromeFlags': ["--start-fullscreen", "--browser-startup-dialog"]
-}
+args = ['C:\\Users\\hieut\\OneDrive\\Documents\\GitHub\\electron-quick-start\\node_modules\\electron\\dist\\electron.exe', '.']
 
-eel.start('index.html', size=(550, 650), port=8080)
-while True:
-    eel.sleep(10)
+eel.start('index.html', size=(550, 650), mode='custom', cmdline_args=args)
