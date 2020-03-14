@@ -28,4 +28,4 @@ def testing(seq,site,thres):
 
 args = ['C:\\Users\\hieut\\OneDrive\\Documents\\GitHub\\electron-quick-start\\node_modules\\electron\\dist\\electron.exe', '.']
 
-eel.start('index.html', size=(550, 650), mode='custom', cmdline_args=args)
+eel.start('index.html', size=(550, 650))
